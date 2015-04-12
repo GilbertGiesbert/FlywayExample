@@ -6,7 +6,7 @@ import org.flywaydb.core.api.migration.jdbc.JdbcMigration;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 
-public class V33__add_col_race implements JdbcMigration{
+public class V3__add_col_race implements JdbcMigration{
 
     @Override
     public void migrate(Connection connection) throws Exception {
